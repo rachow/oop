@@ -26,3 +26,8 @@ Clone the repository to a suitable directory.
 git clone https://github.com/rachow/oop.git
 ```
 
+Then run the following command to ensure all dependencies (minimal) are downloaded too.
+```bash
+composer install
+```
+
