@@ -1,0 +1,30 @@
+#!/usr/bin/env php
+<?php
+
+define('TEST_START', microtime(true));
+
+/*
+|--------------------------------------------------------------------------
+| Begin the testing journey
+|--------------------------------------------------------------------------
+|
+| Command Line Interface (CLI) Script to provide a smoother journey
+| to testing.
+|
+| Simply run using "$ ./test" or "$ php test"
+|
+*/
+
+$path = $argv[1] ?? false;
+$cwd = getcwd();
+$status = 0;
+
+$path = $path ?: 'tests';
+
+$output = shell_exec($cwd . '/vendor/bin/phpunit ' . $path);
+
+echo $output;
+echo PHP_EOL;
+echo 'Took ' . number_format(microtime(true) - TEST_START, 3) . ' seconds to run.';
+exit($status);
+

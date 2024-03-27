@@ -1,0 +1,24 @@
+{
+    "name": "rachow/oop",
+    "description": "This is just a package that demonstrates how great it is to program in OOP",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "OOP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahel Chowdhury",
+            "email": "rahelahmed79@gmail.com"
+        }
+    ],
+    "require": {}
+}
