@@ -5,21 +5,21 @@
 
 class Trip
 {
-    protected string $fromAdressStreet;
-    protected string $fromAddressPostcode;
-    protected string $fromAddressLatitude;
-    protected string $fromAddressLongitude;
+    protected ?string $fromAdressStreet = null;
+    protected ?string $fromAddressPostcode = null;
+    protected ?string $fromAddressLatitude = null;
+    protected ?string $fromAddressLongitude = null;
 
-    protected string $viaAddressStreet;
-    protected string $viaAddressPostcode;
-    protected string $viaAddressLatitude;
-    protected string $viaAddressLongitude;
+    protected ?string $viaAddressStreet = null;
+    protected ?string $viaAddressPostcode = null;
+    protected ?string $viaAddressLatitude = null;
+    protected ?string $viaAddressLongitude = null;
 
 
-    protected string $toAddressStreet;
-    protected string $toAddressPostcode;
-    protected string $toAddressLatitude;
-    protected string $toAddressLongitude;
+    protected ?string $toAddressStreet = null;
+    protected ?string $toAddressPostcode = null;
+    protected ?string $toAddressLatitude = null;
+    protected ?string $toAddressLongitude = null;
 
     public function __construct()
     {
