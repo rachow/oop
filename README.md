@@ -11,7 +11,7 @@ Although there are many external libraries available that enforce DRY (**D**on't
 - **Interfaces** (Polymorphism)
 - **Traits**
 - **Exceptions** (To better control errors)
-- **Namespacing & Autoloading**
+- **Namespacing & Autoloading** (PSR standards)
 - **Unit Testing** (TDD using the popular PHPUnit tool)
 
 ## Installation
