@@ -23,6 +23,6 @@ may be included.
 Clone the repository to a suitable directory.
 
 ```bash
-git clone https://
+git clone https://github.com/rachow/oop.git
 ```
 
